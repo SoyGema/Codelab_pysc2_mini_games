@@ -11,3 +11,41 @@ It is based in conclussions offered by the talk "Tips and tricks for minigames d
 Please, note that this is a template .
 The proposed structure might change after recieved feedback about the proposed structure .
 
+## Install the Polymer-CLI
+
+[Polymer CLI](https://www.npmjs.com/package/polymer-cli) installed. Then run `polymer serve` to serve your application locally.
+
+## Install the bower dependencies
+
+```
+$ bower install
+```
+
+## Viewing Your Application
+
+```
+$ polymer serve
+```
+
+## Building Your Application
+
+```
+$ polymer build
+```
+
+This will create a `build/` folder with `bundled/` and `unbundled/` sub-folders
+containing a bundled (Vulcanized) and unbundled builds, both run through HTML,
+CSS, and JS optimizers.
+
+You can serve the built versions by giving `polymer serve` a folder to serve
+from:
+
+```
+$ polymer serve build/bundled
+```
+
+## Running Tests
+
+```
+$ polymer test
+```
