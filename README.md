@@ -10,6 +10,7 @@ It is based in conclussions offered by the talk "Tips and tricks for minigames d
 
 Please, note that this is a template .
 The proposed structure might change after recieved feedback about the proposed structure .
+The goal is to upload 1st iteration in 3rd and 4th of November
 
 ## Install the Polymer-CLI
 
